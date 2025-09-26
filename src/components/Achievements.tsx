@@ -3,38 +3,60 @@ import { Badge } from "@/components/ui/badge";
 import { Trophy, Users, Lightbulb, Target, MapPin, Calendar } from "lucide-react";
 
 const achievements = [
+ {
+  title: "GeeksforGeeks Vultr cloud innovative hackathon",
+  location: "Online",
+  date: "2024",
+  type: "Hackathon",
+  description: "Participated in the GeeksforGeeks x Vultr Cloud Innovative Hackathon, where our team developed a cloud-based solution leveraging cutting-edge technologies to address real-world challenges. Successfully advanced to Round 2 of the competition by showcasing strong problem-solving, innovation, and technical implementation skills.",
+  impact: "Developed AI-Enhanced career guidance System.",
+  skills: ["Innovation", "Problem Solving"],
+  icon: <Trophy className="text-warning" size={24} />,
+  color: "warning"
+ },
   {
     title: "MLH DSU Hacks Participation",
     location: "Bangalore",
-    date: "2024",
+    date: "2025",
     type: "Hackathon",
-    description: "Participated in Major League Hacking's DSU Hacks, one of India's premier hackathon events. Collaborated with developers from across the country to build innovative solutions within 48 hours.",
+    description: "Participated in Major League Hacking's DSU Hacks, one of India's premier hackathon events. Collaborated with developers from across the country to build innovative solutions within 36 hours.",
     impact: "Enhanced problem-solving skills and learned rapid prototyping techniques",
     skills: ["Team Collaboration", "Rapid Development", "Innovation", "Presentation"],
     icon: <Trophy className="text-warning" size={24} />,
     color: "warning"
   },
+   {
+    title: "<Hack Beyond Limit$> online odyssey",
+    location: "online",
+    date: "2025",
+    type: "Hackathon",
+    description: "Participated in the Hack Beyond Limits Hackathon, collaborating with peers to build innovative solutions under time constraints. Gained hands-on experience in problem-solving, teamwork, and rapid prototyping of ideas.",
+    impact: "Developed a Smart Note Sharing System",
+    skills: ["Project Management", "Communication", "Team Coordination", "Presentation"],
+    icon: <Users className="text-primary" size={24} />,
+    color: "primary"
+  },
+   {
+    title: "Indehub - Hackathon",
+    location: "online",
+    date: "2025",
+    type: "Hackathon",
+    description: "Participated in IndeHub Hackathon conducted by Zoho Apptics and Swift Community, where I developed a Women Safety SOS System. My application was recognized and featured on the ‘Wall of Honour’ for its innovation and impact.",
+    impact: "Developed a Women safety SOS emergency system",
+    skills: ["Project Management", "Communication", "Presentation"],
+    icon: <Users className="text-primary" size={24} />,
+    color: "primary"
+  },
   {
-    title: "Innovation Program Contributor",
-    location: "College",
-    date: "2023-2024",
-    type: "Research & Development",
-    description: "Active contributor to various innovation programs and research initiatives at college level, focusing on emerging technologies and practical applications.",
-    impact: "Developed multiple proof-of-concept projects and research presentations",
+    title: "Anurag University project Expo",
+    location: "Hyderabad",
+    date: "2025",
+    type: "Project Expo",
+    description: "Participated in a Project Expo event, contributing to the development of a women’s safety device for pregnancy. Worked on presenting and enhancing the solution’s safety and monitoring features.",
+    impact: "Developed a Women safety Gadget during pregnancy",
     skills: ["Research", "Innovation", "Technical Documentation", "Problem Solving"],
     icon: <Lightbulb className="text-accent" size={24} />,
     color: "accent"
-  },
-  {
-    title: "Project Team Leadership",
-    location: "Multiple Projects",
-    date: "2023-2024",
-    type: "Leadership",
-    description: "Led cross-functional teams in the development of mobile and web applications, coordinating between designers, developers, and stakeholders.",
-    impact: "Successfully delivered 3+ major projects with 100% team satisfaction",
-    skills: ["Leadership", "Project Management", "Communication", "Team Coordination"],
-    icon: <Users className="text-primary" size={24} />,
-    color: "primary"
   },
   {
     title: "Academic Excellence",
@@ -168,11 +190,11 @@ const Achievements = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-gradient-primary mb-2">5+</div>
+                <div className="text-2xl font-bold text-gradient-primary mb-2">1+</div>
                 <div className="text-sm text-muted-foreground">Team Projects Led</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-gradient-accent mb-2">10+</div>
+                <div className="text-2xl font-bold text-gradient-accent mb-2">4+</div>
                 <div className="text-sm text-muted-foreground">Collaborations</div>
               </div>
               <div>
@@ -180,7 +202,7 @@ const Achievements = () => {
                 <div className="text-sm text-muted-foreground">Innovation Programs</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-gradient-accent mb-2">100%</div>
+                <div className="text-2xl font-bold text-gradient-accent mb-2">40%</div>
                 <div className="text-sm text-muted-foreground">Project Success Rate</div>
               </div>
             </div>

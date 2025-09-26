@@ -22,7 +22,7 @@ const About = () => {
                 Hello, I'm Praveen P
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm a Computer Science Engineering student with a passion for developing 
+                I'm a Computer Science and Engineering student with a passion for developing 
                 innovative applications and exploring the frontiers of artificial intelligence. 
                 My journey in technology is driven by curiosity and a desire to solve 
                 real-world problems through code.
@@ -71,7 +71,7 @@ const About = () => {
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </Card>
               <Card className="glass p-6 text-center hover-lift">
-                <div className="text-2xl font-bold text-gradient-accent mb-2">4+</div>
+                <div className="text-2xl font-bold text-gradient-accent mb-2">7+</div>
                 <div className="text-sm text-muted-foreground">Certifications</div>
               </Card>
             </div>

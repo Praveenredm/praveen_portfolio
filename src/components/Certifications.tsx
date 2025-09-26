@@ -42,6 +42,26 @@ const certifications = [
     skills: ["Android Development", "Kotlin", "Java", "Material Design", "Firebase"],
     credentialId: "GOOGLE2024AND",
     verified: true
+  },
+  {
+    title: "Figma for Beginners",
+    issuer: "Udemy",
+    date: "2023",
+    type: "Course Completion",
+    description: "Comprehensive program covering Figma tools, UI/UX design principles, and collaborative design workflows.",
+    skills: ["Figma", "UI/UX Design", "Prototyping", "Collaboration"],
+    credentialId: "COURsera2023ML",
+    verified: true
+  },
+  {
+    title: "Introduction to Hardware and Operating Systems",
+    issuer: "Coursera", 
+    date: "2023",
+    type: "Course Completion",
+    description: "Comprehensive course covering hardware components, operating system concepts, and system programming.",
+    skills: ["Hardware", "Operating Systems", "System Programming"],
+    credentialId: "COURsera2023ML",
+    verified: true
   }
 ];
 

@@ -69,9 +69,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-sm text-muted-foreground">
             <p className="flex items-center justify-center gap-2">
-              © 2024 Praveen P. Built with 
-              <Heart className="text-destructive" size={16} fill="currentColor" />
-              using React & TypeScript
+              © 2024 Praveen P. Built with  using React & TypeScript
             </p>
             <p className="mt-2">
               Computer Science Engineering Student | SMVEC, Puducherry

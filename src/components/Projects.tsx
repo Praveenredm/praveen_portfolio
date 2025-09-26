@@ -35,20 +35,37 @@ const projects = [
     status: "Completed"
   },
   {
-    title: "AI-Powered Study Assistant",
-    description: "An intelligent study companion that uses machine learning to provide personalized learning recommendations and track study progress.",
-    tech: ["Python", "Machine Learning", "NLP", "React", "Flask API"],
-    features: [
-      "Personalized study plans",
-      "Progress tracking",
-      "AI-powered recommendations",
-      "Interactive quizzes",
-      "Performance analytics"
-    ],
-    icon: <Globe className="text-primary" size={32} />,
-    category: "Web App",
-    status: "In Development"
-  }
+  title: "AI-Powered Health Symptom Checker",
+  description: "A machine learning tool that predicts possible health conditions based on user symptoms and provides preliminary recommendations.",
+  tech: ["Python", "Machine Learning", "NLP", "Flask API", "React"],
+  features: [
+    "Symptom input through chatbot",
+    "Disease prediction with ML models",
+    "Preventive health recommendations",
+    "Integration with online medical resources",
+    "User history tracking"
+  ],
+  icon: <Globe className="text-primary" size={32} />,
+  category: "Web App",
+  status: "Planned"
+},
+{
+  title: "Smart Expense Predictor",
+  description: "A financial assistant that uses machine learning to predict monthly expenses, detect unusual spending patterns, and suggest saving tips.",
+  tech: ["Python", "TensorFlow", "React", "Flask", "PostgreSQL"],
+  features: [
+    "Expense categorization",
+    "Monthly budget prediction",
+    "Anomaly detection for unusual spending",
+    "Personalized financial tips",
+    "Visual analytics dashboard"
+  ],
+  icon: <Globe className="text-primary" size={32} />,
+  category: "Web + Mobile",
+  status: "In Development"
+}
+
+
 ];
 
 const Projects = () => {
