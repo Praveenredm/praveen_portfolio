@@ -1,5 +1,6 @@
 {
-  "name": "your-portfolio",
+  "name": "portfolio-praveen",
+  "homepage": "https://Praveenredm.github.io/praveen_portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +10,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://praveen-dev.xyz",
-  "predeploy": "npm run build",
-  "deploy": "main -d dist"
+    "homepage": "https://Praveenredm.github.io/praveen_portfolio/",
+    "predeploy": "npm run build",
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -48,6 +49,7 @@
     "cmdk": "^1.1.1",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
+    "firebase": "^12.3.0",
     "framer-motion": "^12.23.22",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
