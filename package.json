@@ -1,6 +1,6 @@
 {
   "name": "portfolio-praveen",
-  "homepage": "https://Praveenredm.github.io/praveen_portfolio/",
+  "homepage": "https://praveen-dev.xyz/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://Praveenredm.github.io/praveen_portfolio/",
+    "homepage": "https://praveen-dev.xyz/",
     "predeploy": "npm run build",
     "deploy": "main -d dist"
   },
