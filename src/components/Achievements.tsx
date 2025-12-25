@@ -64,7 +64,7 @@ const achievements = [
     date: "2023-Present",
     type: "Academic",
     description: "Maintaining consistent academic performance with a CGPA of 8.58 while actively participating in extracurricular activities and projects.",
-    impact: "Top 15% of the class while balancing academics with practical learning",
+    impact: "Top 25% of the class while balancing academics with practical learning",
     skills: ["Time Management", "Academic Excellence", "Consistent Performance"],
     icon: <Target className="text-success" size={24} />,
     color: "success"

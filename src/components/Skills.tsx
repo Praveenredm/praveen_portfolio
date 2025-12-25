@@ -11,14 +11,11 @@ interface Skill {
 
 const skills: Skill[] = [
   { name: "Java", level: 85, category: "Programming", icon: <Code size={20} /> },
-  { name: "C+", level: 80, category: "Programming", icon: <Code size={20} /> },
-  { name: "Python", level: 75, category: "Programming", icon: <Code size={20} /> },
+  { name: "Python", level: 45, category: "Programming", icon: <Code size={20} /> },
   { name: "HTML/CSS", level: 90, category: "Frontend", icon: <Globe size={20} /> },
   { name: "React", level: 85, category: "Frontend", icon: <Globe size={20} /> },
-  { name: "React Native", level: 80, category: "Mobile", icon: <Smartphone size={20} /> },
   { name: "SQL", level: 75, category: "Backend", icon: <Database size={20} /> },
   { name: "Firebase", level: 85, category: "Backend", icon: <Database size={20} /> },
-  { name: "Machine Learning", level: 60, category: "AI/ML", icon: <Brain size={20} /> },
   { name: "Data Science", level: 65, category: "AI/ML", icon: <Brain size={20} /> },
 ];
 
@@ -108,8 +105,8 @@ const Skills = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "React", "React Native", "TypeScript", "HTML", "Python", 
-              "Java", "Firebase", "SQL", "Git", "Expo", 
+              "React", "HTML", "Python", 
+              "Java", "Java Springboot","Firebase", "SQL", "Git", "Expo", 
               "VS Code", "IntelliJ IDEA", "Figma", "N8N"
             ].map((tech) => (
               <div 

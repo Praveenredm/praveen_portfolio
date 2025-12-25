@@ -67,7 +67,7 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-4">
               <Card className="glass p-6 text-center hover-lift">
-                <div className="text-2xl font-bold text-gradient-primary mb-2">5+</div>
+                <div className="text-2xl font-bold text-gradient-primary mb-2">4+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </Card>
               <Card className="glass p-6 text-center hover-lift">
@@ -81,8 +81,7 @@ const About = () => {
               <h4 className="font-semibold mb-4">Interests & Focus Areas</h4>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Artificial Intelligence",
-                  "Mobile App Development", 
+                  "Artificial Intelligence", 
                   "Web Development",
                   "Data Science",
                   "Innovation & Research",

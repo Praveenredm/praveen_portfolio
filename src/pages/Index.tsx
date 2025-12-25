@@ -8,6 +8,7 @@ import Achievements from "@/components/Achievements";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
+import ProfileOrbit from "@/components/ProfileOrbit";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Navigation />
       <main>
         <Hero />
+        <ProfileOrbit />
         <About />
         <Skills />
         <Projects />

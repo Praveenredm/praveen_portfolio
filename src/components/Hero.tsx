@@ -71,7 +71,7 @@ const Hero = () => {
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Computer Science Engineering student passionate about creating innovative solutions 
-            with modern technologies. Specialized in AI, mobile app development, and web technologies.
+            with modern technologies. Specialized in Java, n8n Automation, and web technologies.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
